@@ -26,7 +26,6 @@
     </header>
 
     <?php echo message(); ?>
-
     <?php
     if (isset($_GET["article"])) {
       //SHOW PAGE whose id = id
