@@ -1,0 +1,93 @@
+#title {
+  margin: 0 auto;
+  text-align: center;
+  color: #ff8b80;
+  font-family: "comic sans ms", helvetica, arial, sans-serif;
+}
+#score {
+  margin: 10px auto;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  color: #b8b8b8;
+  border-radius: 10px;
+  border: 2px dotted #b8b8b8;
+  font-family: "comic sans ms", helvetica, arial, sans-serif;
+}
+#main {
+  width: 400px;
+  height: 400px;
+  background-color: #fff;
+  border: 2px solid #ff8b80;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#start {
+  margin: 10px auto;
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  color: #ff8b80;
+  border-radius: 10px;
+  border: 2px dotted #ff8b80;
+  font-family: "comic sans ms", helvetica, arial, sans-serif;
+}
+#start:hover{
+  color: #ffffff;
+  background-color: #b8b8b8;
+  cursor: pointer;
+  border-color: #b8b8b8;
+}
+span.game {
+  float: right;
+  margin: 10px auto;
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  color: #ff8b80;
+  border-radius: 10px;
+}
+.game a{
+  text-decoration: none;
+  color:  #FF8B80;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 3px solid;
+  font-family: helvetica, arial, sans-serif;
+  cursor: pointer;
+}
+.game a:hover {
+  border-color: #999;
+  color: #999;
+}
+
+#con {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  top: -100px;
+  border-collapse: collapse;
+}
+
+.row {
+  height: 100px;
+  width: 100%;
+}
+
+.cell{
+  height: 100px;
+  width: 100px;
+  float: left;
+  /*border: 1px solid #ff8b80;*/
+}
+.black {
+  background: #ff8b80;
+}

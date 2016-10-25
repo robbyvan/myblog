@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/*Global Styles*/
+html, body, div, section, aside, header, footer， nav, h1, h2, h3, h4, h5, h6, p, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  font: inherit;
+}
+
+/*html display rule*/
+address, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, nav, menu, section, summary{
+  display: block;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+html {
+  background: #fff;
+}
+body {
+  font: 100% Avenir, Helvetical, Arial, sans-serif;
+  margin: 0 auto;
+  line-height: 1.5;
+  position: relative;
+  background-color: #fff;
+  font-weight: 200;
+  font-style: normal;
+}
+::selection {
+  background-color: #FF8B80;
+  color: #FFF;
+  text-shadow: none;
+}
+
+header ul {
+  list-style: none;
+}
+strong {
+  font-weight: 600;
+}
+em {
+  font-style: italic;
+}
+img {
+  border: 0;
+  vertical-align: middle;
+}
+ul, ol {
+  margin-bottom: 20px;
+  padding: 0;
+  margin: 0;
+  margin-left: 20px;
+}
+li {
+  line-height: 18px;
+  margin-bottom: 12px;
+}
+
+/**/
+html, body {
+  background-color: #ff8b80;
+}
+div.accountmessage {
+  margin: 2% 30% 0 30%;
+  width: 40%;
+  text-align: center;
+  font-weight: 400;
+  font-family: Helvetica;
+  font-size: 1.2em;
+  color: #fff;
+}
+.accountmessage a {
+  color: #ffeeb2;
+  font-weight: 600;
+}
+.accountmessage a:hover {
+  border-bottom: 2px solid #fff;
+}
+h2 {
+  margin: 6% 40% 10px 40%;
+  /*min-width: 150px;*/
+  width: 20%;
+  text-align: center;
+  font-weight: 400;
+  font-family: Helvetica;
+  font-size: 3em;
+  color: #fff;
+}
+form {
+  margin: 0 40% 10% 40%;
+  width: 20%;
+  font-size: 1.2em;
+  color: #fff;
+}
+form input {
+  min-width: 100px;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  border: 2px solid #fff;
+  font-size: 1.2em;
+  font-family: helvetica;
+  padding-left: 5px;
+}
+.submit {
+  background-color: #fff; 
+  height: 40px;
+  border-radius: 30px;
+  border: 2px solid #fff;
+  color: #FF8B80;
+  font-size: 1.2em;
+}
+.submit:hover {
+  background-color: #FFEEB2;
+  border-color: #FFEEB2;
+  cursor: pointer;
+}
+
