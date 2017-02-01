@@ -21,7 +21,7 @@
           <li><a title="About me" href="">Me</a></li>
           <li><a title="Weibo" href="http://weibo.cn/u/2877230942">Weibo</a></li>
           <li><a title="Zhihu" href="">Zhihu</a></li>
-          <li><a title="Game" href="whiteblock.html">Game</a></li>
+          <li><a title="Game" href="whiteblock.html">Github</a></li>
         </ul>
       </div>
       
