@@ -8,4 +8,4 @@ a simple personal blog system
 ![](./img/login.png)
 
 ## After Login
-After logged in, I'll be able to manipulate articles(CRUD).
+After logged in, admin will be able to manipulate articles(CRUD).
