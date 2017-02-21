@@ -1,5 +1,5 @@
 # myblog
-a simple personal blog system
+a simple personal blog system using MAMP - Mac OSx + Apache + MySQL + PHP
 
 ## Homepage
 ![](./img/homepage.png)
